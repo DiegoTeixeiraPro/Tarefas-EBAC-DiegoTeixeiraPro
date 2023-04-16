@@ -7,12 +7,7 @@ public class Main {
         int numero = 60;
         System.out.println(numero);
 
-        //Exemplo de Casting Implícito
-        long numeroLong = numero;
+        Long numeroLong = (long) numero;
         System.out.println(numeroLong);
-
-        //Exemplo de Casting Explícito
-        short numeroShort = (short) numero;
-        System.out.println(numeroShort);
     }
 }
