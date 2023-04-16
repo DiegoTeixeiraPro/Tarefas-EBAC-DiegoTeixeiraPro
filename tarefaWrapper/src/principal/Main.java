@@ -7,7 +7,7 @@ public class Main {
         int numero = 60;
         System.out.println(numero);
 
-        Long numeroLong = (long) numero;
-        System.out.println(numeroLong);
+        Integer numeroInteger = numero;
+        System.out.println(numeroInteger);
     }
 }
